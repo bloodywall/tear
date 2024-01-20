@@ -36,21 +36,11 @@ i{
     font-size: 20px;
     margin-right: 5px;
 }
-.glass{
-    animation: down 2s;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    margin-top: 300px;
-    border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-}
 .pfp-image{
     animation: down 2s;
     border-radius: 100%;
     object-fit: cover;
-    border: 0px solid #201f1f38;
+    border: 10px solid #201f1f38;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -137,12 +127,8 @@ i{
     margin-top: 30px;
 }
 .badge{
-    width: 25px;
-    height: 25px;
-}
-.snow{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 .disc-name{
     font-weight: 600;
@@ -264,7 +250,7 @@ to {opacity:0.8 ;}
   }
   .snowflake {
     color: rgb(255, 255, 255);
-    font-size: 8em;
+    font-size: 2em;
     font-family: Arial, sans-serif;
     text-shadow: 0 0 5px #000;
   }
@@ -307,7 +293,7 @@ to {opacity:0.8 ;}
   }
   .snowflake {
     position: fixed;
-    top: -30%;
+    top: -10%;
     z-index: 9999;
     -webkit-user-select: none;
     -moz-user-select: none;
